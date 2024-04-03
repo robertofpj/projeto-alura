@@ -116,7 +116,7 @@ body{
 {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
     width: 50%;
     text-align: center;
     align-items: center;
@@ -125,7 +125,7 @@ body{
     font-weight: 600;
     font-family: var(--fonte-secundaria);
     color: var(--cor-secundaria);
-    padding: 16px 0;
+    padding: 1rem 0;
     text-decoration: none;
     /* background-color: #22D4FD; */
     border: 2px solid var(--cor-terciaria);
@@ -179,7 +179,37 @@ body{
 
     .apresentacao__imagem
     {
-        width:auto;
+        width:85%;
     }
 
+}
+
+@media (max-width: 450px)
+{
+
+    .header__menu__link
+    {
+        font-size: 18px;
+
+    }
+
+    .apresentacao__conteudo__titulo
+    {
+        font-size: 24px;
+    }
+
+    .apresentacao__conteudo__texto
+    {
+        font-size: 18px;
+    }
+
+    .apresentacao__links__botao
+    {
+        font-size: 1.2rem;
+    }
+
+    .footer__texto
+    {
+        font-size: 1rem;
+    }
 }
