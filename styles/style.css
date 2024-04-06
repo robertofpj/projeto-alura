@@ -177,13 +177,13 @@ body{
 
     .apresentacao__conteudo
     {
-        width: 100%;
+        width: auto;
     }
 
     .apresentacao__imagem
     {
-        width: 100%;
-        height: auto;
+        width: auto;
+        
     }
 
 }
