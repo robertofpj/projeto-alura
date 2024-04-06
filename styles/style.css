@@ -170,18 +170,18 @@ body{
     {
         display: flex;
         flex-direction: column-reverse;
-        padding: 5% 8%;
+        padding: 5% 20%;
     }
 
 
     .apresentacao__conteudo
     {
-        width: 100%;
+        width: auto;
     }
 
     .apresentacao__imagem
     {
-        width: 100%;
+        width: auto;
     }
 
 }
