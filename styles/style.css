@@ -181,10 +181,8 @@ body{
 
     .apresentacao__imagem
     {
-        width: 100%;
-        max-width: 100%;
-        padding-left: 7.5%;
-        padding-right: 7.5%;
+        width: 50%;
+        max-width: 100%;               
     }
 
 }
