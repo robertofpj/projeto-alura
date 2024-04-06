@@ -183,7 +183,7 @@ body{
     .apresentacao__imagem
     {
         width: 100%;
-        height: auto;
+        height: fit-content;
         
     }
 
