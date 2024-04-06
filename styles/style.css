@@ -119,7 +119,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    width: 50%;
+    width: 60%;
     text-align: center;
     align-items: center;
     border-radius: 8px;
@@ -156,7 +156,7 @@ body{
     font-size: 400;
 }
 
-@media (max-width: 1200px)
+@media (max-width: 1000px)
 {
 
     .header__menu
@@ -193,6 +193,16 @@ body{
     {
         font-size: 18px;
 
+    }
+
+    .apresentacao__imagem
+    {
+        width: 100%;
+    }
+
+    .apresentacao__conteudo
+    {
+        width: 100%;
     }
 
     .apresentacao__conteudo__titulo
