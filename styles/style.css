@@ -178,14 +178,13 @@ body{
         width: 100%;
     }
 
-    .div__da__img
-    {
-        padding: 0% 15%;
-    }
 
     .apresentacao__imagem
     {
         width: 100%;
+        max-width: 100%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
     }
 
 }
