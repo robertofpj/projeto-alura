@@ -70,6 +70,7 @@ body{
     padding: 5% 15%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 5.125rem;
     padding-bottom: 7rem;
 }
@@ -176,12 +177,13 @@ body{
 
     .apresentacao__conteudo
     {
-        width: auto;
+        width: 100%;
     }
 
     .apresentacao__imagem
     {
-        width: auto;
+        width: 100%;
+        height: auto;
     }
 
 }
@@ -193,16 +195,6 @@ body{
     {
         font-size: 18px;
 
-    }
-
-    .apresentacao__imagem
-    {
-        width: 100%;
-    }
-
-    .apresentacao__conteudo
-    {
-        width: 100%;
     }
 
     .apresentacao__conteudo__titulo
@@ -229,4 +221,5 @@ body{
     {
         font-size: 1rem;
     }
+
 }
