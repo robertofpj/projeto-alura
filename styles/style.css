@@ -154,7 +154,7 @@ body{
     font-size: 400;
 }
 
-@media (max-width: 1000px)
+@media screen and (max-width: 1000px)
 {
 
     .header__menu
@@ -181,12 +181,14 @@ body{
 
     .apresentacao__imagem
     {
-        width: 75%;           
+        width: 75%;
+        height: 100%;
+        object-fit: contain;
     }
 
 }
 
-@media (max-width: 500px)
+@media screen and (max-width: 500px)
 {
 
     .header__menu__link
