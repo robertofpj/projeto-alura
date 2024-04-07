@@ -54,7 +54,7 @@ body{
 
 .apresentacao__imagem
 {
-    width: 20%;       
+    width: 40%;       
 }
 
 .destaque-titulo
@@ -74,7 +74,7 @@ body{
 
 .apresentacao__conteudo
 {
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -181,9 +181,7 @@ body{
 
     .apresentacao__imagem
     {
-        width: 75%;
-        height: auto;
-        max-width: 100%;            
+        width: 75%;           
     }
 
 }
