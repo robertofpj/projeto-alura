@@ -168,7 +168,7 @@ body{
     {
         display: flex;
         flex-direction: column-reverse;
-        padding: 0% 5%;
+        padding: 5%;
         gap: 3rem;
     }
 
@@ -181,8 +181,7 @@ body{
 
     .apresentacao__imagem
     {
-        width: 75%;
-        max-width: 100%;               
+        width: 75%;                      
     }
 
 }
@@ -216,9 +215,17 @@ body{
         font-size: 1.2rem;
     }
 
+    .apresentacao__imagem
+    {
+        max-width: 100%;
+        width: auto;         
+    }
+
     .footer__texto
     {
         font-size: 1rem;
     }
+
+    
 
 }
